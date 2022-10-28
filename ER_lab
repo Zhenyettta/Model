@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T17:45:51.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hrhvBYogMzv1qDzncM7b" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T17:46:01.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4zeheN2XQE4uBUu6DQpE" version="20.5.1" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
     <mxGraphModel dx="2249" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i7O_QWLYRPtlpu37SJr4-1" value="Співробітник" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="140" y="10" width="180" height="200" as="geometry" />
+          <mxGeometry x="250" y="20" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-2" value="#Табельний номер&#xa;(#1)Паспортний номер&#xa;*ПІБ&#xa;    *Прізвище&#xa;    *Ім&#39;я&#xa;    *По батькові&#xa;*Номер телуфону [1..n]&#xa;*Домашня адреса&#xa;*Працює з&#xa;°Працює до &#xa;*Дата народження" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-1" vertex="1">
           <mxGeometry y="30" width="180" height="170" as="geometry" />
