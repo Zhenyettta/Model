@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T17:39:11.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YcJZmuxIZcUxTywepKYk" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T17:45:51.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hrhvBYogMzv1qDzncM7b" version="20.5.1" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="924" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,25 +10,15 @@
         <mxCell id="i7O_QWLYRPtlpu37SJr4-2" value="#Табельний номер&#xa;(#1)Паспортний номер&#xa;*ПІБ&#xa;    *Прізвище&#xa;    *Ім&#39;я&#xa;    *По батькові&#xa;*Номер телуфону [1..n]&#xa;*Домашня адреса&#xa;*Працює з&#xa;°Працює до &#xa;*Дата народження" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-1" vertex="1">
           <mxGeometry y="30" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ys6LOvvmE2CteW3d6Aep-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.556;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="i7O_QWLYRPtlpu37SJr4-1" source="i7O_QWLYRPtlpu37SJr4-2" target="i7O_QWLYRPtlpu37SJr4-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="270" as="sourcePoint" />
-            <mxPoint x="350" y="120" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="100" y="270" />
-              <mxPoint x="45" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-4" value="Працівниками можуть бути лише повнолітні" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" width="100" height="100" as="geometry" />
+          <mxGeometry x="-160" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="i7O_QWLYRPtlpu37SJr4-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i7O_QWLYRPtlpu37SJr4-10" target="i7O_QWLYRPtlpu37SJr4-6" edge="1">
+        <mxCell id="i7O_QWLYRPtlpu37SJr4-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="i7O_QWLYRPtlpu37SJr4-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="100" as="sourcePoint" />
-            <mxPoint x="520" y="100" as="targetPoint" />
+            <mxPoint y="750" as="sourcePoint" />
+            <mxPoint x="180" y="750" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="100" />
+              <mxPoint x="80" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -38,67 +28,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-6" value="Чеки" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="430" y="30" width="200" height="140" as="geometry" />
+          <mxGeometry x="90" y="680" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-7" value="#Номер чеку&#xa;*Номер товару [1..n]&#xa;*/Сума товару&#xa;*Дата придбання&#xa;*/Дата ймовірного повернення&#xa;*/Загальна сума&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-6" vertex="1">
           <mxGeometry y="30" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-10" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="90" width="20" height="20" as="geometry" />
+          <mxGeometry x="-10" y="740" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-11" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="110" as="sourcePoint" />
-            <mxPoint x="420" y="90" as="targetPoint" />
+            <mxPoint x="80" y="760" as="sourcePoint" />
+            <mxPoint x="80" y="740" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-12" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="383" y="60" width="60" height="30" as="geometry" />
+          <mxGeometry x="43" y="710" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-13" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="60" width="60" height="30" as="geometry" />
+          <mxGeometry x="-30" y="710" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-14" value="Товар можна повернути протягом 30 днів та якщо він у такому самому стані як при покупці" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="110" width="120" height="100" as="geometry" />
+          <mxGeometry x="-160" y="100" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="i7O_QWLYRPtlpu37SJr4-16" target="i7O_QWLYRPtlpu37SJr4-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="290" as="sourcePoint" />
-            <mxPoint x="410" y="190" as="targetPoint" />
+            <mxPoint x="250" y="940" as="sourcePoint" />
+            <mxPoint x="70" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-16" value="Товари" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="450" y="260" width="160" height="120" as="geometry" />
+          <mxGeometry x="110" y="910" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-17" value="#Номер товару&#xa;*Розмір товару&#xa;*Матеріал&#xa;°/Знижка" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-16" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-22" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i7O_QWLYRPtlpu37SJr4-6" target="i7O_QWLYRPtlpu37SJr4-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="220" as="sourcePoint" />
-            <mxPoint x="700" y="100" as="targetPoint" />
+            <mxPoint x="20" y="870" as="sourcePoint" />
+            <mxPoint x="360" y="750" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-23" value="Покупець" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="740" y="40" width="150" height="120" as="geometry" />
+          <mxGeometry x="400" y="690" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-24" value="#Номер телефону&#xa;(#1)Електронна пошта&#xa;°Дата народження&#xa;°/Знижка&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-23" vertex="1">
           <mxGeometry y="30" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-25" value="Купує" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" connectable="0" vertex="1">
-          <mxGeometry x="689.998571428561" y="110" as="geometry">
+          <mxGeometry x="349.99857142856104" y="760" as="geometry">
             <mxPoint x="-7" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ys6LOvvmE2CteW3d6Aep-1" value="Купує" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="529.998571428561" y="230" as="geometry">
+        <mxCell id="ys6LOvvmE2CteW3d6Aep-1" value="Купує" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="189.99857142856104" y="880" as="geometry">
             <mxPoint x="-7" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ys6LOvvmE2CteW3d6Aep-2" value="У магазині проходить унікальна знижка на день народження" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="220" width="100" height="100" as="geometry" />
+        <mxCell id="ys6LOvvmE2CteW3d6Aep-2" value="У магазині проходить унікальна знижка на день народження" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="200" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
