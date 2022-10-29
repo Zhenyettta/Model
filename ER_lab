@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T02:53:38.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bAcKEMhmorBodhe_Hoy0" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T05:06:06.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xpzcGjvXKrn-J9JHa_8V" version="20.0.4" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="1825" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -356,12 +356,12 @@
           <mxGeometry x="610" y="950" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-104" value="Знижки" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="530" y="255" width="240" height="90" as="geometry" />
+          <mxGeometry x="520" y="240" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-114" value="°Дата початку дії персональтної знижки&lt;br&gt;°Дата кінця дії персональної знижки&lt;br&gt;°Одноразова акція[0...10]&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-104">
-          <mxGeometry y="30" width="240" height="60" as="geometry" />
+        <mxCell id="VvPdnfJns8mIYjRiTQur-114" value="#Номер_події&lt;br&gt;°Дата початку дії персональтної знижки&lt;br&gt;°Дата кінця дії персональної знижки&lt;br&gt;°Одноразова персональна акція[0...n]&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-104">
+          <mxGeometry y="30" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-109" value="" style="endArrow=none;html=1;rounded=0;startSize=7;endSize=15;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="VvPdnfJns8mIYjRiTQur-115">
+        <mxCell id="VvPdnfJns8mIYjRiTQur-109" value="" style="endArrow=none;html=1;rounded=0;startSize=7;endSize=15;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;entryX=0.476;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VvPdnfJns8mIYjRiTQur-115" target="VvPdnfJns8mIYjRiTQur-114">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="450" as="sourcePoint" />
             <mxPoint x="635" y="340" as="targetPoint" />
