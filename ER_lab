@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T14:26:17.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qw8FD_GZqRrzp2rdBxYo" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T14:35:14.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-QUjahn6NpBVAzTY5xoX" version="20.0.4" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="1540" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2294" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,10 +105,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-23" value="Клієнт" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="560" y="466.25" width="150" height="113.75" as="geometry" />
+          <mxGeometry x="560" y="466.25" width="150" height="93.75" as="geometry" />
         </mxCell>
-        <mxCell id="i7O_QWLYRPtlpu37SJr4-24" value="#Номер телефону&#xa;(#1)Електронна пошта&#xa;°День народження&#xa;°Стать&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-23" vertex="1">
-          <mxGeometry y="30" width="150" height="83.75" as="geometry" />
+        <mxCell id="i7O_QWLYRPtlpu37SJr4-24" value="#Номер телефону&#xa;(#1)Електронна пошта&#xa;°День народження&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-23" vertex="1">
+          <mxGeometry y="30" width="150" height="63.75" as="geometry" />
         </mxCell>
         <mxCell id="ys6LOvvmE2CteW3d6Aep-2" value="У магазині проходить унікальна знижка на день народження" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" width="100" height="100" as="geometry" />
