@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T02:32:17.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bWx7VHki8BFtkVV7oi4A" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T14:26:17.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qw8FD_GZqRrzp2rdBxYo" version="20.0.4" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="2015" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1540" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,7 +315,7 @@
         <mxCell id="VvPdnfJns8mIYjRiTQur-104" value="Знижки" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="520" y="240" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-114" value="#Номер_знижки&lt;br&gt;°Дата початку дії персональтної знижки&lt;br&gt;°Дата кінця дії персональної знижки&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-104">
+        <mxCell id="VvPdnfJns8mIYjRiTQur-114" value="#Номер_знижки&lt;br&gt;*Дата початку дії персональтної знижки&lt;br&gt;°Дата кінця дії персональної знижки" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-104">
           <mxGeometry y="30" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-109" value="" style="endArrow=ERone;html=1;rounded=0;startSize=7;endSize=20;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;entryX=0.476;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;endFill=0;" edge="1" parent="1" source="VvPdnfJns8mIYjRiTQur-115" target="VvPdnfJns8mIYjRiTQur-114">
