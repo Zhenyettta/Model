@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T14:40:47.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4MQPXVvxdb7wIXbu3EXV" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T15:29:47.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yym-dJXGlEUgqqrlIs4h" version="20.0.4" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
     <mxGraphModel dx="2294" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,7 +244,7 @@
           <mxGeometry x="123" y="595" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-65" value="Поставка" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="520" y="750" width="160" height="80" as="geometry" />
+          <mxGeometry x="590" y="750" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-66" value="#Номер поставки&#xa;*Дата поставки" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-65">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
@@ -256,7 +256,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-72" value="m" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="473.5" y="755" width="60" height="30" as="geometry" />
+          <mxGeometry x="545" y="760" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-73" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="283" y="760" width="60" height="30" as="geometry" />
@@ -268,10 +268,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-79" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="500" y="780" width="20" height="20" as="geometry" />
+          <mxGeometry x="570" y="780" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-83" value="Постачальник" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="520" y="980" width="160" height="80" as="geometry" />
+          <mxGeometry x="590" y="980" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-84" value="#MC&#xa;*Назва&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-83">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
@@ -292,8 +292,8 @@
             <mxPoint y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-95" value="Постачається&lt;br&gt;--------------------&lt;br&gt;*Кількість товару в поставці" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="750" width="143.5" height="100" as="geometry" />
+        <mxCell id="VvPdnfJns8mIYjRiTQur-95" value="Постачається&lt;br&gt;--------------------&lt;br&gt;*Кількість товару в поставці&lt;br&gt;*Сума за одиницю товару&lt;br&gt;*/Сума за поставку" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="730" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-97" value="" style="endArrow=none;html=1;rounded=0;endSize=15;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;startSize=7;sourcePerimeterSpacing=0;" edge="1" parent="1" source="VvPdnfJns8mIYjRiTQur-83" target="VvPdnfJns8mIYjRiTQur-102">
           <mxGeometry relative="1" as="geometry">
@@ -310,7 +310,7 @@
           <mxGeometry x="400" y="492.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-102" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="590" y="960" width="20" height="20" as="geometry" />
+          <mxGeometry x="660" y="960" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-104" value="Знижки" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="520" y="240" width="240" height="100" as="geometry" />
