@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T14:10:15.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JC7sbZ8Fv1qDlNSRas20" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T14:11:02.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="39DBttbB8pWrGQla7JLH" version="20.5.3" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="2074" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2608" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,7 +396,7 @@
         <mxCell id="3Q5VgEXq1X4LClSGZQBF-13" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="790" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pJV_b5XAplSFR0futo7r-1" value="Розкладається&lt;br&gt;-------------------&lt;br&gt;*Категорія товару" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="pJV_b5XAplSFR0futo7r-1" value="Містяться&lt;br&gt;-------------------&lt;br&gt;*Категорія товару" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-40" y="745" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="pJV_b5XAplSFR0futo7r-2" value="" style="endArrow=none;html=1;rounded=0;endSize=20;startArrow=ERone;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;startSize=15;" edge="1" parent="1" source="VvPdnfJns8mIYjRiTQur-22" target="pJV_b5XAplSFR0futo7r-1">
