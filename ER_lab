@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T16:52:09.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mj-xP65Y18uyzhXb1OvP" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T16:52:41.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EqURr-zW7Z99EjyIRKCK" version="20.5.3" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="1866" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,7 +264,7 @@
           <mxGeometry x="570" y="780" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-83" value="Постачальник" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="590" y="980" width="160" height="80" as="geometry" />
+          <mxGeometry x="615" y="980" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-84" value="#MC&#xa;*Назва&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-83" vertex="1">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
@@ -300,7 +300,7 @@
           <mxGeometry x="400" y="492.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-102" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="660" y="960" width="20" height="20" as="geometry" />
+          <mxGeometry x="685" y="960" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-104" value="Карта знижок" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="520" y="240" width="240" height="100" as="geometry" />
