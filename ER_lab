@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T14:33:07.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eG76mx72_N9cNE_t1j0t" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T16:52:09.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mj-xP65Y18uyzhXb1OvP" version="20.5.3" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
     <mxGraphModel dx="1866" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,9 +121,6 @@
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-3" value="Прибиральники" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-550" y="460" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="3Q5VgEXq1X4LClSGZQBF-14" value="*Відділ для прибирання" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="VvPdnfJns8mIYjRiTQur-3" vertex="1">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-5" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="-467" y="415" width="400" height="10" as="geometry" />
@@ -327,10 +324,10 @@
           <mxGeometry x="605" y="390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3wcNB4c6VRwDOWwVVkGx-2" value="Прибирання" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-567" y="720" width="147" height="130" as="geometry" />
+          <mxGeometry x="-567" y="720" width="147" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3wcNB4c6VRwDOWwVVkGx-3" value="#Зміна&#xa;    #Дата&#xa;    #Підпис&#xa;*Робочі дні&#xa;*Робочі години&#xa;*Санітарні умови&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="3wcNB4c6VRwDOWwVVkGx-2" vertex="1">
-          <mxGeometry y="30" width="147" height="100" as="geometry" />
+        <mxCell id="3wcNB4c6VRwDOWwVVkGx-3" value="#Зміна&#xa;    #Дата&#xa;    #Підпис&#xa;*Робочі дні&#xa;*Робочі години&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="3wcNB4c6VRwDOWwVVkGx-2" vertex="1">
+          <mxGeometry y="30" width="147" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3wcNB4c6VRwDOWwVVkGx-4" value="Один прибиравльник відповідає за багато прибирання. Прибирання діляться по днях та годинах" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-780" y="620" width="100" height="135" as="geometry" />
