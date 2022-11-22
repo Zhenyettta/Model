@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T11:17:55.434Z" agent="5.0 (Windows)" etag="PvXQzthjicrogE7BgSCb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T11:53:41.086Z" agent="5.0 (Windows)" etag="dY9avvmtoBcjdXT8odq_" version="20.5.3" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="2565" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,6 +122,9 @@
         <mxCell id="VvPdnfJns8mIYjRiTQur-3" value="Прибиральники" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-550" y="460" width="160" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="3Q5VgEXq1X4LClSGZQBF-14" value="*Відділ для прибирання" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VvPdnfJns8mIYjRiTQur-3">
+          <mxGeometry y="30" width="160" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-5" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="-467" y="415" width="400" height="10" as="geometry" />
         </mxCell>
@@ -167,13 +170,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-21" value="Відділи" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-177" y="730" width="160" height="80" as="geometry" />
+          <mxGeometry x="-207" y="725" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-22" value="#Номер відділу&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-21" vertex="1">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-24" value="Прибирає&lt;br&gt;---------------&lt;br&gt;*Час початку зміни&lt;br&gt;*Підпис&lt;br&gt;*Відділ для прибирання" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="240" width="260" height="120" as="geometry" />
+        <mxCell id="VvPdnfJns8mIYjRiTQur-24" value="Прибирає&lt;br&gt;---------------&lt;br&gt;*Час початку зміни&lt;br&gt;*Підпис&lt;br&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="315" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-27" value="" style="endArrow=ERone;html=1;rounded=0;endSize=20;entryX=0.456;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;endFill=0;" parent="1" source="VvPdnfJns8mIYjRiTQur-29" target="VvPdnfJns8mIYjRiTQur-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -383,6 +386,23 @@
         </mxCell>
         <mxCell id="3Q5VgEXq1X4LClSGZQBF-3" value="Доставляється" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Q5VgEXq1X4LClSGZQBF-7" value="" style="endArrow=ERone;html=1;rounded=0;endSize=20;startArrow=none;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VvPdnfJns8mIYjRiTQur-22" target="i7O_QWLYRPtlpu37SJr4-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-477" y="730" as="sourcePoint" />
+            <mxPoint x="-480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q5VgEXq1X4LClSGZQBF-8" value="Розкладаються" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="3Q5VgEXq1X4LClSGZQBF-7">
+          <mxGeometry x="-0.1103" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q5VgEXq1X4LClSGZQBF-12" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="745" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Q5VgEXq1X4LClSGZQBF-13" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="775" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
