@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T14:50:26.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="22pm6S7OZEVjgIizfRYO" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T11:17:55.434Z" agent="5.0 (Windows)" etag="PvXQzthjicrogE7BgSCb" version="20.5.3" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="2294" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2565" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="i7O_QWLYRPtlpu37SJr4-16" value="Товари" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="133" y="755" width="160" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="i7O_QWLYRPtlpu37SJr4-17" value="#Внут. штрих-код товару&#xa;*Назва&#xa;*Актуальна ціна товару&#xa;*Доступні товари&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-16" vertex="1">
+        <mxCell id="i7O_QWLYRPtlpu37SJr4-17" value="#Внут. штрих-код товару&#xa;*Назва&#xa;*Актуальна ціна товару&#xa;*Наявність на складі&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-16" vertex="1">
           <mxGeometry y="30" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-22" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" parent="1" source="VvPdnfJns8mIYjRiTQur-59" target="i7O_QWLYRPtlpu37SJr4-23" edge="1">
@@ -240,10 +240,10 @@
           <mxGeometry x="123" y="595" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-65" value="Поставка" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="590" y="750" width="160" height="80" as="geometry" />
+          <mxGeometry x="590" y="750" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-66" value="#Номер поставки&#xa;*Дата поставки" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-65" vertex="1">
-          <mxGeometry y="30" width="160" height="50" as="geometry" />
+        <mxCell id="VvPdnfJns8mIYjRiTQur-66" value="#Номер поставки&#xa;*Дата поставки&#xa;*Кількість та назви товару в поставці&#xa;*Сума за одиницю товару&#xa;*/Сума за поставку" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-65" vertex="1">
+          <mxGeometry y="30" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-71" value="" style="endArrow=none;html=1;rounded=0;endSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -288,9 +288,6 @@
             <mxPoint y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-95" value="Постачається&lt;br&gt;--------------------&lt;br&gt;*Кількість товару в поставці&lt;br&gt;*Сума за одиницю товару&lt;br&gt;*/Сума за поставку" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="330" y="730" width="210" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-97" value="" style="endArrow=none;html=1;rounded=0;endSize=15;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;startSize=7;sourcePerimeterSpacing=0;" parent="1" source="VvPdnfJns8mIYjRiTQur-83" target="VvPdnfJns8mIYjRiTQur-102" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="980" as="sourcePoint" />
@@ -332,7 +329,7 @@
         <mxCell id="3wcNB4c6VRwDOWwVVkGx-2" value="Прибирання" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-567" y="720" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3wcNB4c6VRwDOWwVVkGx-3" value="*Робочі дні&#xa;*Робочі години" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="3wcNB4c6VRwDOWwVVkGx-2" vertex="1">
+        <mxCell id="3wcNB4c6VRwDOWwVVkGx-3" value="*Робочі дні&#xa;*Робочі години&#xa;*Санітарні умови&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="3wcNB4c6VRwDOWwVVkGx-2" vertex="1">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3wcNB4c6VRwDOWwVVkGx-4" value="Один прибиравльник відповідає за багато прибирання. Прибирання діляться по днях та годинах" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -383,6 +380,9 @@
             <mxPoint x="500.1400000000003" y="348.34000000000003" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3Q5VgEXq1X4LClSGZQBF-3" value="Доставляється" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="775" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
