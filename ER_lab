@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T17:14:35.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IkR_MIvtIRsOSaSED9A3" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T18:13:44.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xNyn8ri0ya6QpyQ0k-Q4" version="20.5.3" type="github">
   <diagram id="Tb9ZfOPDkeBkdCuBUTEf" name="Page-1">
-    <mxGraphModel dx="2074" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2608" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
             <mxPoint x="635" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-80" value="" style="endArrow=none;html=1;rounded=0;endSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" parent="1" target="VvPdnfJns8mIYjRiTQur-79" edge="1">
+        <mxCell id="VvPdnfJns8mIYjRiTQur-80" value="" style="endArrow=none;html=1;rounded=0;endSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="VvPdnfJns8mIYjRiTQur-79" edge="1" source="pJV_b5XAplSFR0futo7r-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="790" as="sourcePoint" />
             <mxPoint x="480" y="789.9999999999998" as="targetPoint" />
@@ -94,7 +94,7 @@
         <mxCell id="i7O_QWLYRPtlpu37SJr4-16" value="Товари" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="133" y="755" width="160" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="i7O_QWLYRPtlpu37SJr4-17" value="#Внут. штрих-код товару&#xa;*Назва&#xa;*Актуальна ціна товару&#xa;*Наявність на складі&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-16" vertex="1">
+        <mxCell id="i7O_QWLYRPtlpu37SJr4-17" value="#Внут. штрих-код товару&#xa;*Назва&#xa;*Актуальна ціна товару&#xa;*Кількість на складі&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="i7O_QWLYRPtlpu37SJr4-16" vertex="1">
           <mxGeometry y="30" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="i7O_QWLYRPtlpu37SJr4-22" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" parent="1" source="VvPdnfJns8mIYjRiTQur-59" target="i7O_QWLYRPtlpu37SJr4-23" edge="1">
@@ -116,7 +116,7 @@
         <mxCell id="VvPdnfJns8mIYjRiTQur-1" value="Співробітники" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-340" y="100" width="163" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-2" value="#Табельний номер&#xa;(#1)Паспортний номер&#xa;*ПІБ&#xa;    *Прізвище&#xa;    *Ім&#39;я&#xa;    °По батькові&#xa;*Номер телефону [1..n]&#xa;°Електронна пошта [0..n]&#xa;*Домашня адреса&#xa;*Працює з&#xa;°Працює до &#xa;*Дата народження&#xa;*/Вік              n &gt;= 18&#xa;*Посада&#xa;*/Заробітна плата&#xa;°Відпустка" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-1" vertex="1">
+        <mxCell id="VvPdnfJns8mIYjRiTQur-2" value="#Табельний номер&#xa;(#1)Паспортний номер&#xa;*ПІБ&#xa;    *Прізвище&#xa;    *Ім&#39;я&#xa;    °По батькові&#xa;*Номер телефону [1..n]&#xa;°Електронна пошта [0..n]&#xa;*Домашня адреса&#xa;*Працює з&#xa;°Працює до &#xa;*Дата народження&#xa;*/Вік              n &gt;= 18&#xa;*Посада&#xa;*Заробітна плата&#xa;°Відпустка" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-1" vertex="1">
           <mxGeometry y="30" width="163" height="240" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-3" value="Прибиральники" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -215,7 +215,7 @@
           <mxGeometry x="210" y="555" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-57" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="203" y="720" width="20" height="20" as="geometry" />
+          <mxGeometry x="203" y="730" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="i7O_QWLYRPtlpu37SJr4-16" target="VvPdnfJns8mIYjRiTQur-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -237,12 +237,12 @@
           <mxGeometry x="123" y="595" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-65" value="Поставка" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="590" y="750" width="210" height="110" as="geometry" />
+          <mxGeometry x="590" y="750" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-66" value="#Номер поставки&#xa;*Дата поставки&#xa;*Кількість та назви товару в поставці&#xa;*Сума за одиницю товару&#xa;*/Сума за поставку" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-65" vertex="1">
-          <mxGeometry y="30" width="210" height="80" as="geometry" />
+        <mxCell id="VvPdnfJns8mIYjRiTQur-66" value="#Номер поставки&#xa;*Дата поставки&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="VvPdnfJns8mIYjRiTQur-65" vertex="1">
+          <mxGeometry y="30" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VvPdnfJns8mIYjRiTQur-71" value="" style="endArrow=none;html=1;rounded=0;endSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="VvPdnfJns8mIYjRiTQur-71" value="" style="endArrow=none;html=1;rounded=0;endSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="pJV_b5XAplSFR0futo7r-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="790" as="sourcePoint" />
             <mxPoint x="360" y="790" as="targetPoint" />
@@ -252,7 +252,7 @@
           <mxGeometry x="545" y="760" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-73" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="283" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="290" y="760" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VvPdnfJns8mIYjRiTQur-77" value="" style="endArrow=none;html=1;rounded=0;endSize=15;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -378,9 +378,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Q5VgEXq1X4LClSGZQBF-3" value="Доставляється" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="775" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3Q5VgEXq1X4LClSGZQBF-7" value="" style="endArrow=ERone;html=1;rounded=0;endSize=20;startArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pJV_b5XAplSFR0futo7r-1" target="i7O_QWLYRPtlpu37SJr4-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-477" y="730" as="sourcePoint" />
@@ -401,6 +398,9 @@
             <mxPoint x="-68.5" y="822.5" as="sourcePoint" />
             <mxPoint x="133" y="822.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pJV_b5XAplSFR0futo7r-9" value="Постачається&lt;br&gt;-------------------&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;*Кількість та назви товару в поставці&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;*Сума за одиницю товару&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;*/Сума за поставку&lt;/span&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="730" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
